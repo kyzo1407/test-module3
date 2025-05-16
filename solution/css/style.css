@@ -1,42 +1,51 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
-	
 }
-.navbar{
 
+.navbar {
 border: none;
-background-color: #00511091;
-color: #61122F;
+background-color: gray;
+margin: 0 0 0 0;
 }
-body{
-	background-color: green;
-	color: white;
+
+.container {
+	background-color: gray;
 }
-.glyphicon{
+
+
+.text-center {
 	font-size: 30px;
-	color:#61122F; 
+	margin-top: -30px;
+	margin-bottom: 30px;
 }
 
-.center{
-	width: 90%;
-	background-color: grey;
-
-}
-.container
-{
-	background-color: grey;
-}
-.text-center{
-	font-size: 30px;
-}
-
-h2{
+h2 {
 	text-align: center;
 }
-#myNavbar ul li a {
-	color: #61122F;
+
+.navbar-brand {
+font-size: 30px;
+margin: 0 40px;
+font-weight: 600;
 }
-.navbar-brand{
-font-size: 30px;	
+
+.nav-link {
+	text-align: center;
+	color: black;
 }
+
+.nav-item {
+	background-color: white;
+	border: solid black 1px;
+}
+
+#main-content {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.navbar-toggler {
+	margin: 0 20px;
+}
+
